@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!---->
+<head>
+<link rel="shortcut icon" href="images/ei.png" />
+<link rel="shortcut icon" href="images/ei.png" />
+<meta charset="utf-8">
+<title>Regras - Exílio Intelectual</title>
+<link rel="stylesheet" href="qa-styles.css">
+<style>
+.qa-body-js-on .qa-notice {display:none;}
+</style>
+<meta name="keywords" content="hacking, programação, programming, fórum, forum, links, brasil, brazil, curso, cursos, course">
+<script>
+var qa_root = '.\/';
+var qa_request = 'page-regras';
+</script>
+<script src="./qa-content/jquery-3.5.1.min.js"></script>
+<script src="./qa-content/qa-global.js?1.8.5"></script>
+<script>
+$(window).on('load', function() {
+	qa_reveal(document.getElementById('notice_visitor'), 'notice');
+});
+</script>
+<style>
+.qa-q-list-item-featured {
+    background-color:#c92c2c;
+}
+</style>
+<style>
+.notify-container {
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
+}
+.badge-container-badge {
+	white-space: nowrap;
+}
+.badge-notify {
+	background-color: #3c4452;
+	color: #fff;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 10px 0;
+	position:relative;
+}
+.notify-close {
+	color: White;
+	cursor: pointer;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 0 3px;
+	position: absolute;
+	right: 8px;
+	text-decoration: none;
+	top: 8px;
+}				
+#badge-form td {
+	vertical-align:top;
+}
+.badge-bronze,.badge-silver, .badge-gold {
+	margin-right:4px;
+	color: #000;
+	font-weight:bold;
+	text-align:center;
+	border-radius:4px;
+	width:120px;
+	padding: 5px 10px;
+	display: inline-block;
+}
+.badge-bronze {
+	background-color: #CB9114;
+
+	background-image: -webkit-linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114); 
+	background-image:    -moz-linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114);
+	background-image:     -ms-linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114); 
+	background-image:      -o-linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114); 
+	background-image:         linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114); /* standard, but currently unimplemented */
+
+	border:2px solid #6C582C;
+}				
+.badge-silver {
+	background-color: #CDCDCD;
+	background-image: -webkit-linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); 
+	background-image:    -moz-linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); 
+	background-image:     -ms-linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); 
+	background-image:      -o-linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); 
+	background-image:         linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); /* standard, but currently unimplemented */
+	border:2px solid #737373;
+}				
+.badge-gold {
+	background-color: #EEDD0F;
+	background-image: -webkit-linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); 
+	background-image:    -moz-linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); 
+	background-image:     -ms-linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); 
+	background-image:      -o-linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); 
+	background-image:         linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); /* standard, but currently unimplemented */
+	border:2px solid #7E7B2A;
+}				
+.badge-bronze-medal, .badge-silver-medal, .badge-gold-medal  {
+	font-size: 14px;
+	font-family:sans-serif;
+}
+.badge-bronze-medal {
+	color: #CB9114;
+}				
+.badge-silver-medal {
+	color: #CDCDCD;
+}				
+.badge-gold-medal {
+	color: #EEDD0F;
+}
+.badge-pointer {
+	cursor:pointer;
+}				
+.badge-desc {
+	padding-left:8px;
+}			
+.badge-count {
+	font-weight:bold;
+}			
+.badge-count-link {
+	cursor:pointer;
+	color:#992828;
+}			
+.badge-source {
+	text-align:center;
+	padding:0;
+}
+.badge-widget-entry {
+	white-space:nowrap;
+}
+</style>
+</head>
+<body
+class="qa-template-custom qa-theme-snow qa-body-js-off"
+>
+<script>
+var b = document.getElementsByTagName('body')[0];
+b.className = b.className.replace('qa-body-js-off', 'qa-body-js-on');
+</script>
+<div class="qam-login-bar"><div class="qam-login-group">
+<form class="qam-login-form" action="./?qa=login&amp;to=%3Fqa%3Dpage-regras" method="post">
+<input type="text" class="qam-login-text" name="emailhandle" dir="auto" placeholder="Email or Nome">
+<input type="password" class="qam-login-text" name="password" dir="auto" placeholder="Senha">
+<div class="qam-rememberbox"><input type="checkbox" name="remember" id="qam-rememberme" value="1">
+<label for="qam-rememberme" class="qam-remember">Lembrar</label></div>
+<input type="hidden" name="code" value="0-1607639710-d645a0958e945bf55f2a92f6b659542909e6edb7">
+<input type="submit" value="Login" class="qa-form-tall-button qa-form-tall-button-login" name="dologin">
+<input type="submit" value="Cadastro" class="qa-form-tall-button qa-form-tall-button-login" name="dologin"><a href="./?qa=register&amp;to="></a>
+</form>
+<div class="qa-nav-user">
+<ul class="qa-nav-user-list">
+<li class="qa-nav-user-item qa-nav-user-register">
+</li>
+</ul>
+<div class="qa-nav-user-clear">
+</div>
+</div>
+<div class="qa-search">
+<form method="get" action="./?qa=search">
+<input type="hidden" name="qa" value="search">
+<input type="text" name="q" value="" class="qa-search-field" placeholder="Pesquisar no fórum">
+<input type="submit" value="Pesquisar" class="qa-search-button">
+<a href="form-report/reportar">Reportar bug</a>
+</form>
+</div>
+</div></div>
+<div class="qa-notice" id="notice_visitor">
+<form method="post" action="./?qa=page-regras">
+Leia as <a href="http://vh2yawroyz5myutha72wpqdcfa7hswofazpabfu7n3gk2h3titvptiad.onion/?qa=page-regras">regras do fórum</a> antes de continuar
+<input name="notice_visitor" onclick="return qa_notice_click(this);" type="submit" value="X" class="qa-notice-close-button"> 
+<input name="code" type="hidden" value="0-1607639710-c2fbb9c067911ad4d17890a6ebea1b9a00d506e9">
+</form>
+</div>
+<div class="qa-body-wrapper">
+<div class="qa-header">
+<div class="qa-logo">
+<a href="index.html" class="qa-logo-link">Exílio Intelectual</a>
+</div>
+<div class="qa-header-clear">
+</div>
+</div> <!-- END qa-header -->
+<div class="qa-main-shadow">
+<div class="qa-main-wrapper">
+<div class="qa-nav-main">
+<ul class="qa-nav-main-list">
+<li class="qa-nav-main-item qa-nav-main-activity">
+<a href="index.html" class="qa-nav-main-link">Toda a atividade</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-questions">
+<a href="qa=questions" class="qa-nav-main-link">Perguntas</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-hot">
+<a href="qa=hot" class="qa-nav-main-link">Popular!</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-unanswered">
+<a href="qa=unanswered" class="qa-nav-main-link">Sem respostas</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-categories">
+<a href="qa=categories" class="qa-nav-main-link">Categorias</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-user">
+<a href="qa=users" class="qa-nav-main-link">Usuários</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-ask">
+<a href="qa=ask" class="qa-nav-main-link">Faça uma pergunta</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-page-regras">
+<a href="qa=page-regras" class="qa-nav-main-link qa-nav-main-selected">Regras do fórum</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-links">
+<a href="qa=links" class="qa-nav-main-link">Links</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-staff">
+<a href="qa=links" class="qa-nav-main-link">Staff</a>
+</li>
+</ul>
+<div class="qa-nav-main-clear">
+</div>
+</div>
+<div class="qa-sidepanel">
+<div class="qa-widget-side qa-widget-side-high">
+<div class="qa-activity-count">
+<p align="center">Seja inteligente como o fórum inteiro!<br>
+<a href="">Anuncie Aqui.</a></P>
+</div>
+</div>
+<div class="qa-sidebar">
+Bem-Vindo ao Exílio Intelectual, um fórum voltado apenas para interatividade e conhecimento.
+</div>
+<div class="qa-widgets-side qa-widgets-side-high">
+<div class="qa-widget-side qa-widget-side-high">
+<h2>Categorias</h2>
+<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+<li class="qa-nav-cat-item qa-nav-cat-all">
+<a href="./" class="qa-nav-cat-link qa-nav-cat-selected">Todas as categorias</a>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-meta">
+<a href="./?qa=meta" class="qa-nav-cat-link" title="Dúvidas e sugestões sobre o próprio site">Meta</a>
+<span class="qa-nav-cat-note">(56)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-informática">
+<a href="./?qa=inform%C3%A1tica" class="qa-nav-cat-link" title="Hacking, Programação links e coisas relacionadas a internet.">Informática</a>
+<span class="qa-nav-cat-note">(113)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-vida">
+<a href="./?qa=vida" class="qa-nav-cat-link" title="Angústias, momentos bons, acontecimentos e outros.">Vida</a>
+<span class="qa-nav-cat-note">(102)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-política-&amp;-mundo">
+<a href="./?qa=pol%C3%ADtica-%26-mundo" class="qa-nav-cat-link" title="Ideologia, nazismo, fascismo e afins. ex:
+&quot;Qual é o melhor modelo de governo pro Brasil?&quot;
+&quot;O japão sera extinto por causa da taxa de natalidade?&quot;">Política &amp; Mundo</a>
+<span class="qa-nav-cat-note">(30)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-jornal-e-i">
+<a href="./?qa=jornal-e-i" class="qa-nav-cat-link" title="Notícias sobre o mundo afora ou dentro da Dark Web. Você noticia os membros do fórum sobre algo.">Jornal E.I</a>
+<span class="qa-nav-cat-note">(17)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-rede-tor">
+<a href="./?qa=rede-tor" class="qa-nav-cat-link" title="Dinheiro, grana e comércio">Finanças</a>
+<span class="qa-nav-cat-note">(12)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-importantíssimo">
+<a href="./?qa=important%C3%ADssimo" class="qa-nav-cat-link" title="Acontecimentos que podem mudar o mundo.">Importantíssimo</a>
+<span class="qa-nav-cat-note">(9)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-ciência">
+<a href="./?qa=ci%C3%AAncia" class="qa-nav-cat-link" title="Matemática, biologia, etc. Basicamente tudo relacionado a arte de pensar incluindo filosofia.">Ciência</a>
+<span class="qa-nav-cat-note">(31)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-literatura">
+<a href="./?qa=literatura" class="qa-nav-cat-link" title="Qualquer coisa que envolva livros, recomende livros, discuta sobre algum livro específico ou compartilhe suas próprias obras">Literatura</a>
+<span class="qa-nav-cat-note">(8)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-categoria-links">
+<a href="./?qa=categoria-links" class="qa-nav-cat-link" title="compartilhe algum link com conteúdo interessante/útil aqui, ou peça um link com um conteúdo específico
+Ex.: alguém tem o link do site x?">Links</a>
+<span class="qa-nav-cat-note">(18)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-outro">
+<a href="./?qa=outro" class="qa-nav-cat-link" title="Para qualquer tópico que não se encaixe em nenhuma categoria
+Antes de publicar o tópico nessa categoria, certifique-se de que realmente não há uma categoria em que seu tópico se encaixe
+Aqui está uma lista de todas as categorias: http://vh2yawroyz5myutha72wpqdcfa7hswofazpabfu7n3gk2h3titvptiad.onion/?qa=1225">Outro</a>
+<span class="qa-nav-cat-note">(51)</span>
+</li>
+</ul>
+<div class="qa-nav-cat-clear">
+</div>
+</div>
+<div class="qa-widget-side qa-widget-side-high">
+<div class="qa-activity-count">
+<p class="qa-activity-count-item">
+<span class="qa-activity-count-data">447</span> perguntas
+</p>
+<p class="qa-activity-count-item">
+<span class="qa-activity-count-data">2,4K</span> respostas
+</p>
+<p class="qa-activity-count-item">
+<span class="qa-activity-count-data">1,1K</span> comentários
+</p>
+<p class="qa-activity-count-item">
+<span class="qa-activity-count-data">113</span> usuários
+</p>
+</div>
+</div>
+</div>
+<style>
+tet-align: center;
+background-color:;
+</style>
+</div>
+<div class="qa-main">
+<div class="qa-main-heading">
+<h1>
+Regras
+</h1>
+</div>
+<div class="qa-part-custom">
+<p style="font-family:Verdana;">
+<h4>1 - Erros de gramática grosseiros, proposital ou não, irá gerar, caso ilegível, um ocultamento de sua publicação no fórum. Caso não queira ter erros de gramática, você pode baixar uma extensão do próprio Tor/Mozilla denominado: LanguageTool. O mesmo serve para correção e avalição gramátical textual. Aperte no ícone abaixo:</h4>
+<br>
+<a href="https://languagetool.org/" target="new"><img src="images/languagetool.png" height="30px"></a>
+<h4>2 - Atos maquiavélicos (conteúdo ilegal/obsceno/hediondo/perverso/ardiloso/pérfido) resultara em banimento instantâneo, sem direito a pesquisa ou reinvidicação de seu banimento. Não insista em contatar os moderadores neste caso.</h4>
+<br>
+<h4>3 - Baixo esforço para responder as perguntas realizadas (shitpost), responder apenas com palavras do genêro: "ok", "hm", "blz", "sim", "não", sem um maior detalhamento de sua resposta referente a questão resultará em ocultação do seu comentário instantâneamente.</h4>
+<br>
+<h4>4 - Não espalhe "Fake-News", verifique a veracidade dos fatos e não os compartilhe como verdadeiros pelo fórum, antes de tudo ainda, verifique se o que você ainda irá postar/compartilhar já não foi compartilhado e se aquilo lhe traz o contéudo desejado. Sujeito a ocultação da publicação/banimento.</h4>
+<br>
+<h4>5 - Totalmente proibido o ato de Spam, ou ainda de atos infantis pelo fórum, como badernas e provocações por parte dos usuários. Não seja o bobo da corte.</h4>
+<br>
+<h4>6 - Proibido Scam ou ainda qualquer outro ato de roubo por parte dos usuários, ainda sim é proibido publicar qualquer coisa referente a vendas ou trocas que possam gerar qualquer ato de scamming dentro do fórum. Lembre-se que o fórum permite que você pesquise a respeito e tenha conhecimento sobre negócios, porém não incentiva a venda ou atos de roubos na internet.</h4>
+<br>
+<h4>7 - Verifique sua pergunta, veja se alguem já não perguntou antes de você e se outra pessoa já não respondeu, não preencha o fórum de perguntas repetidas ou ainda sem nenhum nexo. Sujeito a ocultação da publicação.</h4>
+<br>
+<h4>8 - Respeite as categorias, poste na categoria correta referente a sua pergunta, Ex: Computadores e Tablets ---> Informática. Sujeito a ocultação de sua publicação.</h4>
+</p>
+<span style="color:blue;"><h1>Ética</h1></span>
+<span style="color:#1da1f2;"><h4></span>
+Respeite o próximo, seja mais humano. Qualquer caso de ódio, racismo, preconceito, xenofobia por parte de qualquer usuário resultará no banimento instantâneo do mesmo sem direito a reinvidicação.</h4>
+
+<span style="color:grey;"><h4>Abusos ou tentativas de burlar as regras do fórum irá resultar no deletamento de sua conta instantâneamente, sem direito a reinvidicação. Entenda que não somos e não queremos ser um ambiente tóxico.
+</span>
+
+<span style="color:#1da1f2;"></br> </br>Não é necessário a criação de uma conta para comentar, responder, ou perguntar dentro do fórum, damos total liberdade a quem quer de fato ser 100% anônimo. Crie uma conta apenas ou no caso de querer ser fixo no fórum, responder ou perguntar sem a confirmação.</span></br></br>
+
+<b><i><span style="color:purple;background: black;">
+Para um melhor uso dentro do fórum, habilite o modo de segurança <u>Safer</u> do seu navegador Tor. O JavaScript é necessário para manipulação de texto. Caso queira, o navegador permite que você crie uma configuração de segurança personalizada, bloqueando ou liberando tudo a sua preferência.</b></i></br>
+</div>
+Para mais detalhes contate a <a href="">Staff</a>.
+</div> <!-- END qa-main -->
+</div> <!-- END main-wrapper -->
+</div> <!-- END main-shadow -->
+</div> <!-- END body-wrapper -->
+<div class="qa-footer-bottom-group">
+<div class="qa-footer">
+<div class="qa-nav-footer">
+<ul class="qa-nav-footer-list">
+</ul>
+<div class="qa-nav-footer-clear">
+</div>
+</div>
+<div class="qa-attribution">
+&nbsp;| Snow Theme by <a href="http://www.q2amarket.com">Q2A Market</a>
+</div>
+<div class="qa-attribution">
+Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+</div>
+<div class="qa-footer-clear">
+</div>
+</div> <!-- END qa-footer -->
+</div> <!-- END footer-bottom-group -->
+<div style="position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:0;width:0;margin:0;padding:0;border:0;">
+<span id="qa-waiting-template" class="qa-waiting">...</span>
+</div>
+</body>
+<!---->
+</html>
+

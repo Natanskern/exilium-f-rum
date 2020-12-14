@@ -1,0 +1,1884 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!---->
+<head>
+<link rel="shortcut icon" href="images/ei.png" />
+<meta charset="utf-8">
+<title>Perguntas mais votadas - Exílio Intelectual</title>
+<link rel="stylesheet" href="qa-styles.css">
+<link rel="canonical" href="http://vh2yawroyz5myutha72wpqdcfa7hswofazpabfu7n3gk2h3titvptiad.onion/?qa=questions&amp;sort=votes">
+<link rel="next" href="./?qa=questions&amp;sort=votes&amp;start=30" >
+<meta name="keywords" content="hacking, programação, programming, fórum, forum, links, brasil, brazil, curso, cursos, course">
+<script>
+var qa_root = '.\/';
+var qa_request = 'questions';
+</script>
+<script src="./qa-content/jquery-3.5.1.min.js"></script>
+<script src="./qa-content/qa-global.js?1.8.5"></script>
+<style>
+.qa-q-list-item-featured {
+    background-color:#c92c2c;
+}
+</style>
+<style>
+.notify-container {
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
+}
+.badge-container-badge {
+	white-space: nowrap;
+}
+.badge-notify {
+	background-color: #3c4452;
+	color: #fff;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 10px 0;
+	position:relative;
+}
+.notify-close {
+	color: White;
+	cursor: pointer;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 0 3px;
+	position: absolute;
+	right: 8px;
+	text-decoration: none;
+	top: 8px;
+}				
+#badge-form td {
+	vertical-align:top;
+}
+.badge-bronze,.badge-silver, .badge-gold {
+	margin-right:4px;
+	color: #000;
+	font-weight:bold;
+	text-align:center;
+	border-radius:4px;
+	width:120px;
+	padding: 5px 10px;
+	display: inline-block;
+}
+.badge-bronze {
+	background-color: #CB9114;
+
+	background-image: -webkit-linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114); 
+	background-image:    -moz-linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114);
+	background-image:     -ms-linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114); 
+	background-image:      -o-linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114); 
+	background-image:         linear-gradient(left center , #CB9114, #EDB336, #CB9114, #A97002, #CB9114); /* standard, but currently unimplemented */
+
+	border:2px solid #6C582C;
+}				
+.badge-silver {
+	background-color: #CDCDCD;
+	background-image: -webkit-linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); 
+	background-image:    -moz-linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); 
+	background-image:     -ms-linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); 
+	background-image:      -o-linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); 
+	background-image:         linear-gradient(left center , #CDCDCD, #EFEFEF, #CDCDCD, #ABABAB, #CDCDCD); /* standard, but currently unimplemented */
+	border:2px solid #737373;
+}				
+.badge-gold {
+	background-color: #EEDD0F;
+	background-image: -webkit-linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); 
+	background-image:    -moz-linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); 
+	background-image:     -ms-linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); 
+	background-image:      -o-linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); 
+	background-image:         linear-gradient(left center , #EEDD0F, #FFFF2F, #EEDD0F, #CCBB0D, #EEDD0F); /* standard, but currently unimplemented */
+	border:2px solid #7E7B2A;
+}				
+.badge-bronze-medal, .badge-silver-medal, .badge-gold-medal  {
+	font-size: 14px;
+	font-family:sans-serif;
+}
+.badge-bronze-medal {
+	color: #CB9114;
+}				
+.badge-silver-medal {
+	color: #CDCDCD;
+}				
+.badge-gold-medal {
+	color: #EEDD0F;
+}
+.badge-pointer {
+	cursor:pointer;
+}				
+.badge-desc {
+	padding-left:8px;
+}			
+.badge-count {
+	font-weight:bold;
+}			
+.badge-count-link {
+	cursor:pointer;
+	color:#992828;
+}			
+.badge-source {
+	text-align:center;
+	padding:0;
+}
+.badge-widget-entry {
+	white-space:nowrap;
+}
+</style>
+</head>
+<body
+class="qa-template-questions qa-theme-snow qa-body-js-off"
+>
+<script>
+var b = document.getElementsByTagName('body')[0];
+b.className = b.className.replace('qa-body-js-off', 'qa-body-js-on');
+</script>
+<div class="qam-login-bar"><div class="qam-login-group">
+<form class="qam-login-form" action="./?qa=login&amp;to=%3Fqa%3Dquestions%26sort%3Dvotes" method="post">
+<input type="text" class="qam-login-text" name="emailhandle" dir="auto" placeholder="Email or Nome">
+<input type="password" class="qam-login-text" name="password" dir="auto" placeholder="Senha">
+<div class="qam-rememberbox"><input type="checkbox" name="remember" id="qam-rememberme" value="1">
+<label for="qam-rememberme" class="qam-remember">Lembrar</label></div>
+<input type="hidden" name="code" value="0-1607658753-dae4d369f0e0d6fda742b3580821583b260ba4a1">
+<input type="submit" value="Login" class="qa-form-tall-button qa-form-tall-button-login" name="dologin">
+<input type="submit" value="Cadastro" class="qa-form-tall-button qa-form-tall-button-login" name="dologin"><a href="./?qa=register&amp;to="></a>
+</form>
+<div class="qa-nav-user">
+<ul class="qa-nav-user-list">
+<li class="qa-nav-user-item qa-nav-user-register">
+</li>
+</ul>
+<div class="qa-nav-user-clear">
+</div>
+</div>
+<div class="qa-search">
+<form method="get" action="./?qa=search">
+<input type="hidden" name="qa" value="search">
+<input type="text" name="q" value="" class="qa-search-field">
+<input type="submit" value="Pesquisar" class="qa-search-button">
+<a href="form-report/reportar">Reportar bug</a>
+</form>
+</div>
+</div></div>
+<div class="qa-body-wrapper">
+<div class="qa-header">
+<div class="qa-logo">
+<a href="index.html" class="qa-logo-link">Exílio Intelectual</a>
+</div>
+<div class="qa-header-clear">
+</div>
+</div> <!-- END qa-header -->
+<div class="qa-main-shadow">
+<div class="qa-main-wrapper">
+<div class="qa-nav-main">
+<ul class="qa-nav-main-list">
+<li class="qa-nav-main-item qa-nav-main-activity">
+<a href="index.html" class="qa-nav-main-link">Toda a atividade</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-questions">
+<a href="qa=questions" class="qa-nav-main-link qa-nav-main-selected">Perguntas</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-hot">
+<a href="qa=hot" class="qa-nav-main-link">Popular!</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-unanswered">
+<a href="qa=unanswered" class="qa-nav-main-link">Sem respostas</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-categories">
+<a href="qa=categories" class="qa-nav-main-link">Categorias</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-user">
+<a href="qa=users" class="qa-nav-main-link">Usuários</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-ask">
+<a href="qa=ask" class="qa-nav-main-link">Faça uma pergunta</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-page-regras">
+<a href="qa=page-regras" class="qa-nav-main-link">Regras do fórum</a>
+</li>
+<li class="qa-nav-main-item qa-nav-main-links">
+<a href="qa=links" class="qa-nav-main-link">Links</a>
+</li>
+</ul>
+<div class="qa-nav-main-clear">
+</div>
+</div>
+<div class="qa-nav-sub">
+<ul class="qa-nav-sub-list">
+<li class="qa-nav-sub-item qa-nav-sub-recent">
+<a href="qa=questions" class="qa-nav-sub-link">Recente</a>
+</li>
+<li class="qa-nav-sub-item qa-nav-sub-hot">
+<a href="qa=questions&amp;sort=hot" class="qa-nav-sub-link">Popular!</a>
+</li>
+<li class="qa-nav-sub-item qa-nav-sub-votes">
+<a href="qa=questions&amp;sort=votes" class="qa-nav-sub-link qa-nav-sub-selected">Mais votos</a>
+</li>
+<li class="qa-nav-sub-item qa-nav-sub-answers">
+<a href="qa=questions&amp;sort=answers" class="qa-nav-sub-link">Mais respostas</a>
+</li>
+<li class="qa-nav-sub-item qa-nav-sub-views">
+<a href="qa=questions&amp;sort=views" class="qa-nav-sub-link">Mais visitas</a>
+</li>
+</ul>
+<div class="qa-nav-sub-clear">
+</div>
+</div>
+<div class="qa-sidepanel">
+<div class="qa-widget-side qa-widget-side-high">
+<div class="qa-activity-count">
+<p align="center">Seja inteligente como o fórum inteiro!<br>
+<a href="">Anuncie Aqui.</a></p>
+</div>
+</div>
+<div class="qa-sidebar">
+Bem-Vindo ao Exílio Intelectual, um fórum voltado apenas para interatividade e conhecimento.
+</div>
+<div class="qa-widgets-side qa-widgets-side-high">
+<div class="qa-widget-side qa-widget-side-high">
+<h2>Categorias</h2>
+<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+<li class="qa-nav-cat-item qa-nav-cat-all">
+<a href="./" class="qa-nav-cat-link qa-nav-cat-selected">Todas as categorias</a>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-meta">
+<a href="./?qa=meta" class="qa-nav-cat-link" title="Dúvidas e sugestões sobre o próprio site">Meta</a>
+<span class="qa-nav-cat-note">(56)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-informática">
+<a href="./?qa=inform%C3%A1tica" class="qa-nav-cat-link" title="Hacking, Programação links e coisas relacionadas a internet.">Informática</a>
+<span class="qa-nav-cat-note">(113)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-vida">
+<a href="./?qa=vida" class="qa-nav-cat-link" title="Angústias, momentos bons, acontecimentos e outros.">Vida</a>
+<span class="qa-nav-cat-note">(103)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-política-&amp;-mundo">
+<a href="./?qa=pol%C3%ADtica-%26-mundo" class="qa-nav-cat-link" title="Ideologia, nazismo, fascismo e afins. ex:
+&quot;Qual é o melhor modelo de governo pro Brasil?&quot;
+&quot;O japão sera extinto por causa da taxa de natalidade?&quot;">Política &amp; Mundo</a>
+<span class="qa-nav-cat-note">(30)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-jornal-e-i">
+<a href="./?qa=jornal-e-i" class="qa-nav-cat-link" title="Notícias sobre o mundo afora ou dentro da Dark Web. Você noticia os membros do fórum sobre algo.">Jornal E.I</a>
+<span class="qa-nav-cat-note">(17)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-rede-tor">
+<a href="./?qa=rede-tor" class="qa-nav-cat-link" title="Dinheiro, grana e comércio">Finanças</a>
+<span class="qa-nav-cat-note">(12)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-importantíssimo">
+<a href="./?qa=important%C3%ADssimo" class="qa-nav-cat-link" title="Acontecimentos que podem mudar o mundo.">Importantíssimo</a>
+<span class="qa-nav-cat-note">(9)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-ciência">
+<a href="./?qa=ci%C3%AAncia" class="qa-nav-cat-link" title="Matemática, biologia, etc. Basicamente tudo relacionado a arte de pensar incluindo filosofia.">Ciência</a>
+<span class="qa-nav-cat-note">(31)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-literatura">
+<a href="./?qa=literatura" class="qa-nav-cat-link" title="Qualquer coisa que envolva livros, recomende livros, discuta sobre algum livro específico ou compartilhe suas próprias obras">Literatura</a>
+<span class="qa-nav-cat-note">(8)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-categoria-links">
+<a href="./?qa=categoria-links" class="qa-nav-cat-link" title="compartilhe algum link com conteúdo interessante/útil aqui, ou peça um link com um conteúdo específico
+Ex.: alguém tem o link do site x?">Links</a>
+<span class="qa-nav-cat-note">(20)</span>
+</li>
+<li class="qa-nav-cat-item qa-nav-cat-outro">
+<a href="./?qa=outro" class="qa-nav-cat-link" title="Para qualquer tópico que não se encaixe em nenhuma categoria
+Antes de publicar o tópico nessa categoria, certifique-se de que realmente não há uma categoria em que seu tópico se encaixe
+Aqui está uma lista de todas as categorias: http://vh2yawroyz5myutha72wpqdcfa7hswofazpabfu7n3gk2h3titvptiad.onion/?qa=1225">Outro</a>
+<span class="qa-nav-cat-note">(51)</span>
+</li>
+</ul>
+<div class="qa-nav-cat-clear">
+</div>
+</div>
+<div class="qa-widget-side qa-widget-side-high">
+<div class="qa-activity-count">
+<p class="qa-activity-count-item">
+<span class="qa-activity-count-data">450</span> perguntas
+</p>
+<p class="qa-activity-count-item">
+<span class="qa-activity-count-data">2,4K</span> respostas
+</p>
+<p class="qa-activity-count-item">
+<span class="qa-activity-count-data">1,1K</span> comentários
+</p>
+<p class="qa-activity-count-item">
+<span class="qa-activity-count-data">113</span> usuários
+</p>
+</div>
+</div>
+</div>
+<style>
+tet-align: center;
+background-color:;
+</style>
+</div>
+<div class="qa-main">
+<div class="qa-main-heading">
+<h1>
+Perguntas mais votadas
+</h1>
+</div>
+<div class="qa-part-q-list">
+<form method="post" action="./?qa=questions&amp;sort=votes">
+<div class="qa-q-list">
+<div class="qa-q-list-item" id="q2">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_2">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_2_1_q2" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_2_-1_q2" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">13</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">10</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=2/ex%C3%ADlio-intelectual-1-0">Exílio Intelectual 1.0</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Out</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=inform%C3%A1tica/deep-web" class="qa-category-link">Deep Web</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data">anônimo</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q1225">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_1225">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_1225_1_q1225" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_1225_-1_q1225" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">12</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">3</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=1225/fa%C3%A7am-posts-nas-categorias-corretas">Façam posts nas categorias corretas</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=meta" class="qa-category-link">Meta</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/alcus" class="qa-user-link">alcus</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">39,9K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q22">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_22">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_22_1_q22" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_22_-1_q22" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">12</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">7</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=22/pra-voc%C3%AAs-quais-s%C3%A3o-as-melhores-bandas-brasileiras">pra vocês, quais são as melhores bandas brasileiras?</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Out</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=important%C3%ADssimo" class="qa-category-link">Importantíssimo</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/BOLSONAROERE%C3%87%C3%83OTOTAL" class="qa-user-link">BOLSONAROEREÇÃOTOTAL</a></span>
+<span class="qa-q-item-who-title"><span style="color:#FF007F;"><b>Kid</b></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">960</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3728">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3728">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3728_1_q3728" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3728_-1_q3728" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">5</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3728/brasil-conseguiria-se-defender-em-caso-de-ataque-terrorista">O Brasil conseguiria se defender em caso de ataque terrorista?</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">2 Dez</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=outro" class="qa-category-link">Outro</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Nafu" class="qa-user-link">Nafu</a></span>
+<span class="qa-q-item-who-title"><span style="color:red;">Irmão <span style="color:purple;">mais <span style="color:#1E90FF;">velho</span></span></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">8,4K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3720">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3720">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3720_1_q3720" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3720_-1_q3720" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count qa-a-count-selected">
+<span class="qa-a-count-data">12</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3720/ja-fizeram-amizade-com-alguem-aqui-na-dw-seja-for%C3%BAm-ou-chat">Ja fizeram amizade com alguem aqui na DW, seja forúm ou chat?</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">2 Dez</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=vida" class="qa-category-link">Vida</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Arcent" class="qa-user-link">Arcent</a></span>
+<span class="qa-q-item-who-title"><u><b><span style="color:red;font-family:Verdana;background-color:black;">Lord</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">70,7K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q1064">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_1064">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_1064_1_q1064" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_1064_-1_q1064" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">4</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=1064/eu-ainda-tenho-esperan%C3%A7as">Eu ainda tenho esperanças.</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=vida/felicidade" class="qa-category-link">Felicidade</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Mabeldefaria" class="qa-user-link">Mabeldefaria</a></span>
+<span class="qa-q-item-who-title"><span style="color:green;">Nov<span style="color:blue;">ato</span></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">1,4K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q995">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_995">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_995_1_q995" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_995_-1_q995" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">7</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=995/aqui-%C3%A9-o-blogado">Aqui é o Blogado</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=vida" class="qa-category-link">Vida</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/blogado" class="qa-user-link">blogado</a></span>
+<span class="qa-q-item-who-title"><span style="color:red;">Irmão <span style="color:purple;">mais <span style="color:#1E90FF;">velho</span></span></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">8,4K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q908">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_908">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_908_1_q908" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_908_-1_q908" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">21</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=908/recomende-uma-m%C3%BAsica-aqui">Recomende uma música aqui</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">11 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=outro" class="qa-category-link">Outro</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/alcus" class="qa-user-link">alcus</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">39,9K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q137">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_137">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_137_1_q137" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_137_-1_q137" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">6</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=137/como-ganhar-dinheiro-na-internet">Como ganhar dinheiro na internet?</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Out</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=rede-tor" class="qa-category-link">Finanças</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data">money</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q109">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_109">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_109_1_q109" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_109_-1_q109" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count qa-a-count-selected">
+<span class="qa-a-count-data">12</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=109/vale-a-pena-continuar-com-o-f%C3%B3rum">Vale a pena continuar com o fórum?</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Out</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=inform%C3%A1tica/deep-web" class="qa-category-link">Deep Web</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Sariel" class="qa-user-link">Sariel</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">42,6K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q61">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_61">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_61_1_q61" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_61_-1_q61" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">6</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=61/existe-alguma-rede-social-na-deep-web">Existe alguma rede social na deep web?</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Out</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=inform%C3%A1tica/deep-web" class="qa-category-link">Deep Web</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Scherbartsky" class="qa-user-link">Scherbartsky</a></span>
+<span class="qa-q-item-who-title"><span style="color:#FF007F;"><b>Kid</b></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">260</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q43">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_43">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_43_1_q43" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_43_-1_q43" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count qa-a-count-selected">
+<span class="qa-a-count-data">6</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=43/o-que-exatamente-%C3%A9-shitpost-para-o-admin">o que exatamente é shitpost? para o admin</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Out</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=important%C3%ADssimo" class="qa-category-link">Importantíssimo</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Ment4list" class="qa-user-link">Ment4list</a></span>
+<span class="qa-q-item-who-title"><span style="color:red;">SEN<span style="color:#8b0000;">PAI</span></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">16,5K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q39">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_39">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_39_1_q39" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_39_-1_q39" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">6</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=39/sobre-esse-novo-f%C3%B3rum">Sobre esse novo fórum...</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Out</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=vida" class="qa-category-link">Vida</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data">anônimo</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q10">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_10">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_10_1_q10" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_10_-1_q10" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">10</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">6</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=10/pessoal-muito-interessante-participar-in%C3%ADcio-f%C3%B3rum-futuro">Fala pessoal, muito interessante participar do início de algo, este fórum tem futuro!</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Out</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=vida" class="qa-category-link">Vida</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/esquizo" class="qa-user-link">esquizo</a></span>
+<span class="qa-q-item-who-title"><span style="color:green;">Nov<span style="color:blue;">ato</span></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">2,7K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3959">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3959">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3959_1_q3959" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3959_-1_q3959" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">6</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3959/update">Update '-'</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">2 dias</span><span class="qa-q-item-when-pad"> atrás</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=jornal-e-i" class="qa-category-link">Jornal E.I</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Ami" class="qa-user-link">Ami</a></span>
+<span class="qa-q-item-who-title"><u><b><span style="color:red;font-family:Verdana;background-color:black;">Lord</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">73,6K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3923">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3923">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3923_1_q3923" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3923_-1_q3923" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">9</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3923/novo-tema-para-o-f%C3%B3rum">Novo tema para o fórum</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">2 dias</span><span class="qa-q-item-when-pad"> atrás</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=jornal-e-i" class="qa-category-link">Jornal E.I</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Ami" class="qa-user-link">Ami</a></span>
+<span class="qa-q-item-who-title"><u><b><span style="color:red;font-family:Verdana;background-color:black;">Lord</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">73,6K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3919">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3919">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3919_1_q3919" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3919_-1_q3919" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">4</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3919/ganhando-badges-do-nada">Ganhando Badges do nada</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">3 dias</span><span class="qa-q-item-when-pad"> atrás</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=outro" class="qa-category-link">Outro</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Nafu" class="qa-user-link">Nafu</a></span>
+<span class="qa-q-item-who-title"><span style="color:red;">Irmão <span style="color:purple;">mais <span style="color:#1E90FF;">velho</span></span></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">8,4K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3824">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3824">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3824_1_q3824" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3824_-1_q3824" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3824/formata%C3%A7%C3%A3o-com-markdown">Formatação com Markdown</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">4 Dez</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=inform%C3%A1tica/programa%C3%A7%C3%A3o-hacking" class="qa-category-link">Programação/Hacking</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/alcus" class="qa-user-link">alcus</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">39,9K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3723">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3723">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3723_1_q3723" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3723_-1_q3723" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count qa-a-count-selected">
+<span class="qa-a-count-data">10</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3723/qual-voce-considera-ser-sua-maior-habilidade">Qual voce considera ser sua maior habilidade?</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">2 Dez</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=vida" class="qa-category-link">Vida</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Arcent" class="qa-user-link">Arcent</a></span>
+<span class="qa-q-item-who-title"><u><b><span style="color:red;font-family:Verdana;background-color:black;">Lord</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">70,7K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3630">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3630">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3630_1_q3630" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3630_-1_q3630" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count qa-a-count-selected">
+<span class="qa-a-count-data">10</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3630/se-voc%C3%AA-morasse-sozinho-a-nessas-condi%C3%A7%C3%B5es">Se você morasse sozinho(a) nessas condições.</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">30 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=vida" class="qa-category-link">Vida</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Sariel" class="qa-user-link">Sariel</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">42,6K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3628">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3628">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3628_1_q3628" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3628_-1_q3628" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">10</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3628/voc%C3%AAs-j%C3%A1-moderaram-um-f%C3%B3rum-ou-site">Vocês já moderaram um fórum ou site?</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">30 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=vida/entretenimento" class="qa-category-link">Entretenimento</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Sariel" class="qa-user-link">Sariel</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">42,6K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3366">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3366">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3366_1_q3366" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3366_-1_q3366" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">12</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3366/baixo-qi-e-intoler%C3%A2ncia">Baixo QI e intolerância.</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">25 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=pol%C3%ADtica-%26-mundo" class="qa-category-link">Política &amp; Mundo</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/c0rydon" class="qa-user-link">c0rydon</a></span>
+<span class="qa-q-item-who-title"><u><b><span style="color:red;font-family:Verdana;background-color:black;">Lord</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">69,5K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3345">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3345">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3345_1_q3345" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3345_-1_q3345" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count qa-a-count-selected">
+<span class="qa-a-count-data">5</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3345/n%C3%A3o-fico-triste-faz-muito-tempo">não fico triste faz muito tempo</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">24 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=vida/acontecimentos" class="qa-category-link">Acontecimentos</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/piroc" class="qa-user-link">piroc</a></span>
+<span class="qa-q-item-who-title"><u><b><span style="color:red;font-family:Verdana;background-color:black;">Lord</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">63,7K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3327">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3327">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3327_1_q3327" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3327_-1_q3327" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">3</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3327/o-destruidor-de-pcs">O Destruidor de PCs</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">24 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=inform%C3%A1tica/seguran%C3%A7a-e-malware" class="qa-category-link">Segurança e Malware</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/alcus" class="qa-user-link">alcus</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">39,9K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q3248">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_3248">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_3248_1_q3248" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_3248_-1_q3248" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count qa-a-count-selected">
+<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=3248/superbact%C3%A9rias">Superbactérias</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">24 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=ci%C3%AAncia" class="qa-category-link">Ciência</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Unwohl.%EA%93%B9" class="qa-user-link">Unwohl.ꓹ</a></span>
+<span class="qa-q-item-who-title"><span style="color:red;">SEN<span style="color:#8b0000;">PAI</span></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">17,8K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q2695">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_2695">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_2695_1_q2695" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_2695_-1_q2695" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">5</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=2695/estou-pensando-em-matar-o-blogado">Estou pensando em matar o BLOGADO</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">18 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=rede-tor" class="qa-category-link">Finanças</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/blogado" class="qa-user-link">blogado</a></span>
+<span class="qa-q-item-who-title"><span style="color:red;">Irmão <span style="color:purple;">mais <span style="color:#1E90FF;">velho</span></span></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">8,4K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q2658">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_2658">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_2658_1_q2658" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_2658_-1_q2658" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">3</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=2658/adicionei-o-f%C3%B3rum-no-ahmia">Adicionei o fórum no Ahmia</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">18 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=meta" class="qa-category-link">Meta</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/alcus" class="qa-user-link">alcus</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">39,9K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q2543">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_2543">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_2543_1_q2543" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_2543_-1_q2543" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">6</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=2543/mais-uma-lista-de-links">Mais uma lista de links</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">18 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=categoria-links" class="qa-category-link">Links</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/alcus" class="qa-user-link">alcus</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">39,9K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q1551">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_1551">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_1551_1_q1551" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_1551_-1_q1551" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">4</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=1551/limite-da-freedom-hosting-e-c%C3%A1lculo-de-tamanho-do-db">Limite da Freedom Hosting e cálculo de tamanho do db</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">13 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=meta" class="qa-category-link">Meta</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/alcus" class="qa-user-link">alcus</a></span>
+<span class="qa-q-item-who-title"><b><u><span style="color:blue;">H</span><span style="color:#FFFF00;">U</span><span style="color:green;">E</span></u></b></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">39,9K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+<div class="qa-q-list-item" id="q1112">
+<div class="qa-q-item-stats">
+<div class="qa-voting qa-voting-updown" id="voting_1112">
+<div class="qa-vote-buttons qa-vote-buttons-updown">
+<input title="Clique para votar positivamente" name="vote_1112_1_q1112" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+<input title="Clique para negativar" name="vote_1112_-1_q1112" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+</div>
+<div class="qa-vote-count qa-vote-count-updown">
+<span class="qa-upvote-count">
+<span class="qa-upvote-count-data">9</span><span class="qa-upvote-count-pad"> votos positivos</span>
+</span>
+<span class="qa-downvote-count">
+<span class="qa-downvote-count-data">0</span><span class="qa-downvote-count-pad"> votos negativos</span>
+</span>
+</div>
+<div class="qa-vote-clear">
+</div>
+</div>
+<span class="qa-a-count">
+<span class="qa-a-count-data">5</span><span class="qa-a-count-pad"> respostas</span>
+</span>
+</div>
+<div class="qa-q-item-main">
+<div class="qa-q-item-title">
+<a href="./?qa=1112/recomenda%C3%A7%C3%A3o-de-aplicativo">Recomendação de aplicativo</a>
+</div>
+<span class="qa-q-item-avatar-meta">
+<span class="qa-q-item-meta">
+<span class="qa-q-item-what">perguntado</span>
+<span class="qa-q-item-when">
+<span class="qa-q-item-when-data">12 Nov</span>
+</span>
+<span class="qa-q-item-where">
+<span class="qa-q-item-where-pad">em </span><span class="qa-q-item-where-data"><a href="./?qa=ci%C3%AAncia" class="qa-category-link">Ciência</a></span>
+</span>
+<span class="qa-q-item-who">
+<span class="qa-q-item-who-pad">por </span>
+<span class="qa-q-item-who-data"><a href="./?qa=user/Unwohl.%EA%93%B9" class="qa-user-link">Unwohl.ꓹ</a></span>
+<span class="qa-q-item-who-title"><span style="color:red;">SEN<span style="color:#8b0000;">PAI</span></span></span>
+<span class="qa-q-item-who-points">
+<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">17,8K</span><span class="qa-q-item-who-points-pad"> pontos)</span>
+</span>
+<span class="qa-q-item-who-pad">&nbsp;</span>
+</span>
+</span>
+</span>
+</div>
+<div class="qa-q-item-clear">
+</div>
+</div> <!-- END qa-q-list-item -->
+</div> <!-- END qa-q-list -->
+<div class="qa-q-list-form">
+<input name="code" type="hidden" value="0-1607658753-23e4864aea9911d491ada6e93a1325524a5c3e23">
+</div>
+</form>
+</div>
+<div class="qa-page-links">
+<span class="qa-page-links-label">Página:</span>
+<ul class="qa-page-links-list">
+<li class="qa-page-links-item">
+<span class="qa-page-selected">1</span>
+</li>
+<li class="qa-page-links-item">
+<a href="./?qa=questions&amp;sort=votes&amp;start=30" class="qa-page-link">2</a>
+</li>
+<li class="qa-page-links-item">
+<a href="./?qa=questions&amp;sort=votes&amp;start=60" class="qa-page-link">3</a>
+</li>
+<li class="qa-page-links-item">
+<a href="./?qa=questions&amp;sort=votes&amp;start=90" class="qa-page-link">4</a>
+</li>
+<li class="qa-page-links-item">
+<span class="qa-page-ellipsis">...</span>
+</li>
+<li class="qa-page-links-item">
+<a href="./?qa=questions&amp;sort=votes&amp;start=420" class="qa-page-link">15</a>
+</li>
+<li class="qa-page-links-item">
+<a href="./?qa=questions&amp;sort=votes&amp;start=30" class="qa-page-next">avançar &raquo;</a>
+</li>
+</ul>
+<div class="qa-page-links-clear">
+</div>
+</div>
+</div> <!-- END qa-main -->
+</div> <!-- END main-wrapper -->
+</div> <!-- END main-shadow -->
+</div> <!-- END body-wrapper -->
+<div class="qa-footer-bottom-group">
+<div class="qa-footer">
+<div class="qa-nav-footer">
+<ul class="qa-nav-footer-list">
+</ul>
+<div class="qa-nav-footer-clear">
+</div>
+</div>
+<div class="qa-attribution">
+&nbsp;| Snow Theme by <a href="http://www.q2amarket.com">Q2A Market</a>
+</div>
+<div class="qa-attribution">
+Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+</div>
+<div class="qa-footer-clear">
+</div>
+</div> <!-- END qa-footer -->
+</div> <!-- END footer-bottom-group -->
+<div style="position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:0;width:0;margin:0;padding:0;border:0;">
+<span id="qa-waiting-template" class="qa-waiting">...</span>
+</div>
+</body>
+<!---->
+</html>
+
